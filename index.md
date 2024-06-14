@@ -4,6 +4,8 @@
 
 layout: home
 title: Home
+heading: "Bristol Ladies Union"
+subheading: "Your awesome subheading"
 banner: "/assets/images/banners/home.jpeg"
 ---
 
