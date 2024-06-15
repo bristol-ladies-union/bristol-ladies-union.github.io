@@ -1,0 +1,23 @@
+---
+layout: framework
+sidebar: tag-list
+---
+
+{{ content }}
+
+<div>
+  <div>
+    {% for category in site.data.club_documents %}
+    <h2>{{ category.name }}</h2>
+    <ul>
+      {% for doc in category.documents %}
+      <li>
+        <a href="{{ doc.url }}" title="{{ doc.name }}" target="blank">
+          {{ doc.name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </div>
+</div>

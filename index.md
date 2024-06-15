@@ -5,10 +5,13 @@
 layout: home
 title: Home
 heading: "Bristol Ladies Union"
-subheading: "Your awesome subheading"
-banner: "/assets/images/banners/home.jpeg"
+heading_image: "/assets/images/logo/BLU-logo_left_white_rgb-128x88.png"
+subheading: "Bristol's largest all female football club"
+banner: "/assets/images/banners/home-comedy.jpg"
 ---
 
-<h2>About</h2>
-<p>🔥 BLU 🔥</p>
-<p>Welcome, some info will inevitably follow</p>
+## About
+
+🔥 BLU 🔥
+
+Welcome, some info will inevitably follow

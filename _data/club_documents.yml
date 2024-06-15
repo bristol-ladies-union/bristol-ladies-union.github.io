@@ -1,0 +1,12 @@
+- name: "AGM Minutes"
+  documents:
+    - name: "2015-06-15"
+      url: "/assets/docs/2015-06-15-blu-agm.pdf"
+
+    - name: "2014-06-16"
+      url: "/assets/docs/2014-06-16-blu-agm.pdf"
+
+- name: "Committee Meeting Minutes"
+  documents:
+    - name: "2014-06-16"
+      url: "/assets/docs/2014-06-16-blu-agm.pdf"
