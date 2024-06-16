@@ -1,23 +1,37 @@
 ---
 layout: framework
-sidebar: tag-list
+sidebar: document-list
 ---
 
 {{ content }}
 
-<div>
-  <div>
-    {% for category in site.data.club_documents %}
-    <h2>{{ category.name }}</h2>
-    <ul>
-      {% for doc in category.documents %}
-      <li>
-        <a href="{{ doc.url }}" title="{{ doc.name }}" target="blank">
-          {{ doc.name }}
-        </a>
-      </li>
+
+{% assign current_month = site.time | date: '%Y %b' %}
+{%- include functions.html func='get_document_categories' -%}
+{% assign categories = return %}
+{% assign keys = categories %}
+{% assign field = 'categories' %}
+
+<div class="page-segments">
+  <ul class="page-segments-list">
+    {% for key in keys %}
+      <h2 id="{{ key }}" class="segment-name">{{ key }}</h2>
+      {% assign items = site.data.club_documents | where: field, key %}
+      {% for item in items %}
+        {% if item != nil %}
+          {%- assign post_month = item.date | date: '%Y %b' -%}
+          {%- assign post_item_class = "" -%}
+          {%- if post_month == current_month -%}
+            {%- assign post_item_class = "new-post" -%}
+          {%- endif -%}
+          {%- if item.top -%}
+            {%- assign post_item_class = "top-post" -%}
+          {%- endif -%}
+          <li class="{{ post_item_class }}">
+            {%- include views/post-item.html -%}
+          </li>
+        {% endif %}
       {% endfor %}
-    </ul>
     {% endfor %}
-  </div>
+  </ul>
 </div>

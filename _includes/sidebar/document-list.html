@@ -1,0 +1,27 @@
+{%- include functions.html func='log' level='debug' msg='Get documents-list value' -%}
+
+{%- include functions.html func='get_document_categories' -%}
+{% assign categories = return %}
+
+{% assign keys = categories %}
+{% assign field = 'categories' %}
+{% assign url = '/categories/' | relative_url %}
+
+<div class="common-list">
+  <ul>
+    <li>
+      <a href="{{ '/documents/' | relative_url }}">
+        All<span>{{ site.data.club_documents.size }}</span>
+      </a>
+    </li>
+
+    {% for key in keys %}
+      <li>
+        <a href="/documents/#h-{{ key }}">
+          {{ key }}
+          <span>{{ site.data.club_documents | where: field, key | size }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

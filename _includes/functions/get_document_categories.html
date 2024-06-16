@@ -1,0 +1,13 @@
+{% if include.params.filter %}
+  {% assign filter = include.params.filter %}
+{% endif %}
+
+{% assign split_mark = '<|>' %}
+
+{% assign categories = '' %}
+{% for doc in site.data.club_documents %}
+  {% assign name = doc.categories | date: filter %}
+  {% assign categories = categories | append: split_mark | append: name %}
+{% endfor %}
+
+{% assign return = categories | remove_first: split_mark | split: split_mark | sort: self | uniq %}

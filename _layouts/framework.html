@@ -4,11 +4,17 @@ layout: default
 
 <div class="framework">
   <section class="main">
-
-     {{ content }}
-
+    {{ content }}
   </section>
   <section class="sidebar" style="margin-left: 15px;">
+    {%- if page.email -%}
+      <div class="common-list">
+        <a class="btn btn-contact" href="mailto:{{page.email}}">
+          <i class="fa fa-envelope"></i>&nbsp; 
+          Get in touch
+        </a>
+      </div>
+    {%- endif -%}
     <!-- Get sidebar items -->
     {%- if page.sidebar -%}
       {%- assign sidebar = page.sidebar -%}

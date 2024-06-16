@@ -6,14 +6,20 @@
   {%- assign field = include.field -%}
 {%- endif -%}
 
+{% assign current_month = site.time | date: '%Y %b' %}
+
 <div class="page-segments">
   <ul class="page-segments-list">
     {% for key in keys %}
-    <h2 id="{{ key }}" class="segment-name">{{ key }}</h2>
+      <h2 id="{{ key }}" class="segment-name">{{ key }}</h2>
       {% assign items = site.posts | where: field, key %}
       {% for item in items %}
         {% if item != nil %}
+          {%- assign post_month = item.date | date: '%Y %b' -%}
           {%- assign post_item_class = "" -%}
+          {%- if post_month == current_month -%}
+            {%- assign post_item_class = "new-post" -%}
+          {%- endif -%}
           {%- if item.top -%}
             {%- assign post_item_class = "top-post" -%}
           {%- endif -%}

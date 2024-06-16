@@ -1,0 +1,86 @@
+---
+layout: framework
+banner:
+banner_html: post-header.html
+hidden: []
+sidebar:
+  - team-list
+---
+
+
+{% assign current_month = site.time | date: '%Y %b' %}
+
+<div class="post">
+  <section>
+
+    {%- assign name = 'banner' -%}
+    {%- include functions.html func='get_value' -%}
+    {%- assign banner = return -%}
+
+    {%- assign name = 'hidden' -%}
+    {%- include functions.html func='get_value' -%}
+    {%- assign hidden = return -%}
+
+    {%- assign result = hidden | where_exp: "item", "item == 'header'" -%}
+    {%- if banner == nil and result.size == 0 -%}
+      {%- include views/post-header.html -%}
+    {%- endif -%}
+
+    {%- include views/article.html -%}
+
+
+    {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
+    {%- if result.size == 0 -%}
+      <div class="post-related">
+        <div>Related Articles</div>
+        <ul>
+          {% assign posts = site.posts | where_exp: "item", "item.categories contains page.categories" | sample: 4 %}
+          {%- for post in posts -%}
+            {%- assign post_item_class = "" -%}
+            {%- assign post_month = post.date | date: '%Y %b' -%}
+            {%- if post_month == current_month -%}
+              {%- assign post_item_class = "new-post" -%}
+            {%- endif -%}
+            {%- if post.top -%}
+              {%- assign post_item_class = "top-post" -%}
+            {%- endif -%}
+            <li class="{{ post_item_class }}">
+              <a
+                class="post-link"
+                href="{{ post.url | relative_url }}"
+                title="{{ post.title | escape }}">
+                {{ post.title | escape | truncatewords: 12 }}
+                {%- include views/post-badges.html -%}
+              </a>
+              <div>
+                {{ post.excerpt }}
+              </div>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    {%- endif -%}
+
+    {%- assign result = hidden | where_exp: "item", "item == 'comments'" -%}
+    {%- if result.size == 0 -%}
+      <div class="post-comments">
+        {%- if page.comments != false -%}
+
+          {%- if site.disqus.shortname -%}
+            {%- include extensions/comments/disqus.html -%}
+          {%- endif -%}
+
+          {%- if site.gitment.username -%}
+            {%- include extensions/comments/gitment.html -%}
+          {%- endif -%}
+
+          {%- if site.utterances.repo -%}
+            {%- include extensions/comments/utterances.html -%}
+          {%- endif -%}
+
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+  </section>
+</div>
