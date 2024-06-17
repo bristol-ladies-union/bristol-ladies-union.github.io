@@ -1,0 +1,11 @@
+---
+layout: framework
+---
+{%- if page.category -%}
+  {%- assign category = page.category -%}
+{% endif %}
+<h1>{{ category | capitalize }}</h1>
+
+{{ content }}
+
+{%- include views/category.html -%}

@@ -21,11 +21,7 @@
 {%- include functions.html func='get_value' -%}
 {%- assign default_image = return -%}
 
-{%- assign post_image = post.excerpt_image
-  | default: post.banner.image
-  | default: post.banner
-  | default: default_image
-  | default: '/assets/images/default-image.jpg' -%}
+{%- assign post_image = post.excerpt_image | default: post.banner.image | default: post.banner | default: default_image | default: '/assets/images/default-image.jpg' -%}
 
 <li class="post-item {{ post_item_class }}">
   <h2 class="post-title">
@@ -35,25 +31,39 @@
     </a>
   </h2>
   <div class="post-meta">
-    <span class="post-date"><i class="fa fa-calendar"></i> {{ post.date | date: date_format }}</span>
+    <span class="post-date">
+      <i class="fa fa-calendar"></i>
+      {{ post.date | date: date_format }}</span>
     {%- if post.author -%}
-    <span class="post-author left-vsplit"><i class="fa fa-pencil"></i> {{ post.author | escape }}</span>
+      <span class="post-author left-vsplit">
+        <i class="fa fa-pencil"></i>
+        {{ post.author | escape }}</span>
     {%- endif -%}
-    <span class="post-reading-time left-vsplit"><i class="fa fa-clock-o"></i> {{ reading_time }}</span>
+    <span class="post-reading-time left-vsplit">
+      <i class="fa fa-clock-o"></i>
+      {{ reading_time }}</span>
   </div>
   <div class="post-excerpt">
     {%- if post_image and post_image != 'NO_EXCERPT_IMAGE' -%}
-    <a  class="post-image" href="{{ post_url }}" style="flex: 0 1 {{ image_width }}">
-      <div style="background-image: url({{ post_image | relative_url }}); height: {{ image_height }}"></div>
-    </a>
+      <a
+        class="post-image"
+        href="{{ post_url }}"
+        style="flex: 0 1 {{ image_width }}">
+        <div style="background-image: url({{ post_image | relative_url }}); height: {{ image_height }}"></div>
+      </a>
     {%- endif -%}
-    <a class="post-text" href="{{ post_url }}">
-      <p>{{ article_excerpt }} <span class="read_more">Read More</span></p>
-    </a>
+    <div class="post-text">
+      {{ article_excerpt }}
+
+      <a class="read_more" href="{{ post_url }}">
+        read more
+      </a>
+    </div>
+
   </div>
   <div class="post-tags">
     {%- for tag in post.tags -%}
-    <a class="post-tag" href="{{ '/tags/' | relative_url }}#{{tag}}">#{{tag}}</a>
+      <a class="post-tag" href="{{ '/tags/' | relative_url }}#{{tag}}">#{{ tag }}</a>
     {%- endfor -%}
   </div>
 </li>

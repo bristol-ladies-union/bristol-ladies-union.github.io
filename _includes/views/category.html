@@ -1,0 +1,16 @@
+{%- if page.category -%}
+  {%- assign category = site.categories[page.category] -%}
+{% endif %}
+
+<div class="pagination">
+  <!-- Post list links -->
+  <ul class="post-list">
+
+    <!-- Normal list item -->
+    {%- assign post_item_class = "" -%}
+    {%- for post in category -%}
+      {%- include views/pagination-item.html -%}
+    {%- endfor -%}
+  </ul>
+
+</div>

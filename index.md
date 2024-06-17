@@ -12,8 +12,6 @@ sidebar:
     - document-list
 ---
 
-## About
+## 🔥 Welcome to Bristol Ladies Union Football Club
 
-🔥 BLU 🔥
-
-Welcome, some info will inevitably follow
+> We are committed to providing a safe, welcoming and inclusive environment to give players an environment where they can develop and grow.

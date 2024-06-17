@@ -33,7 +33,7 @@ facebook: https://www.facebook.com/groups/237169567430828
 github_username: bristol-ladies-union
 domain: bristol-ladies-union.github.io
 page_excerpts: true
-copyright: "(c) Bristol Ladies Union FC {currentYear}"
+copyright: "(c) Bristol Ladies Union FC {currentYear} - Bristol Ladies Union is an FA Chartered Standard Club"
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -131,11 +131,10 @@ night_mode: "auto"
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
-  - index.md
-  - documents.md
-  - categories.md
+  - registration.md
   - archives.md
-  - about.md
+  - sponsors.md
+  - documents.md
 
 # Page default value
 defaults:

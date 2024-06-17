@@ -1,5 +1,5 @@
 ---
 layout: archives
-title: Archives
-permalink: /archives/
+title: Latest News
+permalink: /news/
 ---
