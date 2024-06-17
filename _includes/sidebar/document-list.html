@@ -3,6 +3,7 @@
 {%- include functions.html func='get_document_categories' -%}
 {% assign categories = return %}
 
+{% assign docs = site.static_files | where: "doc", true %}
 {% assign keys = categories %}
 {% assign field = 'categories' %}
 {% assign url = '/categories/' | relative_url %}
@@ -11,15 +12,19 @@
   <ul>
     <li>
       <a href="{{ '/documents/' | relative_url }}">
-        All<span>{{ site.data.club_documents.size }}</span>
+        All Documents<span>{{ docs.size }}</span>
       </a>
     </li>
 
     {% for key in keys %}
       <li>
         <a href="/documents/#h-{{ key }}">
-          {{ key }}
-          <span>{{ site.data.club_documents | where: field, key | size }}</span>
+          {% assign text = key | split: "/" | reverse | join: '_' %}
+          {%- include functions.html func='get_formatted_word' value=text -%}
+          {% assign label = return %}
+          {{ label }}
+          {% assign filter = "/" | append: key | append: "/" %}
+          <span>{{ docs | where_exp: "item", "item.path contains filter" | size }}</span>
         </a>
       </li>
     {% endfor %}

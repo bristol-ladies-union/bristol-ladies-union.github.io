@@ -3,11 +3,14 @@
 {% endif %}
 
 {% assign split_mark = '<|>' %}
+{% assign docs = site.static_files | where: "doc", true %}
 
 {% assign categories = '' %}
-{% for doc in site.data.club_documents %}
-  {% assign name = doc.categories | date: filter %}
-  {% assign categories = categories | append: split_mark | append: name %}
+{% for doc in docs %}
+  {%- assign path = doc.path | replace: doc.name, "" | split: '/' | slice: 3, 10 | join: '/' -%}
+
+  {% assign categories = categories | append: split_mark | append: path %}
+
 {% endfor %}
 
 {% assign return = categories | remove_first: split_mark | split: split_mark | sort: self | uniq %}

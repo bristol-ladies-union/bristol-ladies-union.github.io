@@ -5,33 +5,38 @@ sidebar: document-list
 
 {{ content }}
 
-
-{% assign current_month = site.time | date: '%Y %b' %}
 {%- include functions.html func='get_document_categories' -%}
 {% assign categories = return %}
-{% assign keys = categories %}
-{% assign field = 'categories' %}
 
+
+{% assign current_month = site.time | date: '%Y %b' %}
+{% assign cats = site.static_files | where: "doc", true | slice: 0 | map: path %}
+{{ cats }}
 <div class="page-segments">
-  <ul class="page-segments-list">
-    {% for key in keys %}
-      <h2 id="{{ key }}" class="segment-name">{{ key }}</h2>
-      {% assign items = site.data.club_documents | where: field, key %}
-      {% for item in items %}
-        {% if item != nil %}
-          {%- assign post_month = item.date | date: '%Y %b' -%}
-          {%- assign post_item_class = "" -%}
-          {%- if post_month == current_month -%}
-            {%- assign post_item_class = "new-post" -%}
-          {%- endif -%}
-          {%- if item.top -%}
-            {%- assign post_item_class = "top-post" -%}
-          {%- endif -%}
-          <li class="{{ post_item_class }}">
-            {%- include views/post-item.html -%}
-          </li>
-        {% endif %}
+  {% for category in categories %}
+    {% assign text = category | split: "/" | reverse | join: '_' %}
+    {%- include functions.html func='get_formatted_word' value=text -%}
+    {% assign label = return %}
+    <h2 id="{{ category }}" class="segment-name">{{ label }}</h2>
+    <ul class="page-segments-list">
+      {% assign filter = "/" | append: category | append: "/" %}
+      {% assign files = site.static_files | where: "doc", true | where_exp: "item", "item.path contains filter" | reverse %}
+      {% for key in files %}
+        {% assign date = key.name | slice: 0, 10 %}
+        {%- include functions.html func='get_document_name' doc=key -%}
+        {%- assign name = return -%}
+        {% assign cats = key.path | replace: key.name, "" | split: '/' | slice: 3, 10 | join: '|' %}
+
+        {%- assign post_month = date | date: '%Y %b' -%}
+        {%- assign post_item_class = "" -%}
+        {%- if post_month == current_month -%}
+          {%- assign post_item_class = "new-post" -%}
+        {%- endif -%}
+
+        <li class="{{ post_item_class }}">
+          {%- include views/document-item.html item=key -%}
+        </li>
       {% endfor %}
-    {% endfor %}
-  </ul>
+    </ul>
+  {% endfor %}
 </div>

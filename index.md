@@ -8,8 +8,8 @@ heading: "Bristol Ladies Union"
 subheading: "Bristol's largest all female football club"
 banner: "/assets/images/banners/home-comedy.jpg"
 sidebar: 
-    - team-list
-    - tag-list
+    - team-list    
+    - document-list
 ---
 
 ## About
