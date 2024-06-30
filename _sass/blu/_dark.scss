@@ -109,6 +109,7 @@ $dark-text-color: #b0b0b0 !default;
     .pagination {
       .post-link {
         color: #bbb;
+        color: #71b1fe;
       }
 
       .post-excerpt {
@@ -130,6 +131,11 @@ $dark-text-color: #b0b0b0 !default;
       li {
         a {
           color: #ddd;
+          color: #71b1fe;
+          &:hover {
+            color: #a8cfff;
+            text-decoration: none;
+          }
         }
       }
     }

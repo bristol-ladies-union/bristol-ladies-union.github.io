@@ -3,23 +3,25 @@ layout: post
 title: Plantuml example
 categories: example
 tags: [plantuml]
+published: false
 ---
 
 ## My First PlantUML
 
 ### PlantUML Block-1
+
 @startuml
 Bob -> Alice : hello
 @enduml
 
-
 ### PlantUML Block-2
+
 ``` plantuml!
 Bob -> Alice : hello world
 ```
 
-
 ### PlantUML Block-3
+
 @startuml
 (*) --> "Initialization"
 
@@ -32,7 +34,6 @@ else
   -->[Ending process] (*)
 endif
 @enduml
-
 
 ### PlantUML Block-4
 

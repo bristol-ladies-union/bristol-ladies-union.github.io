@@ -4,6 +4,7 @@ title: Table example
 subtitle:
 categories: example
 tags: [table]
+published: false
 ---
 
 ## Table example as below
@@ -17,6 +18,7 @@ tags: [table]
 * Grouped table header rows or data rows
 
 ### Rowspan and Colspan
+
 ^^ in a cell indicates it should be merged with the cell above.  
 This feature is contributed by [pmccloghrylaing](https://github.com/pmccloghrylaing).  
 
@@ -33,6 +35,7 @@ This feature is contributed by [pmccloghrylaing](https://github.com/pmccloghryla
 [ Net ATP yields per hexose]
 
 ### Multiline
+
 A backslash at end to join cell contents with the following lines.  
 This feature is contributed by [Lucas-C](https://github.com/Lucas-C).
 
@@ -45,8 +48,8 @@ This feature is contributed by [Lucas-C](https://github.com/Lucas-C).
 | Apple  | Banana |  Orange  |
 | Apple  | Banana |  Orange  |
 
-
 ### Headerless
+
 Table header can be eliminated.
 
 |--|--|--|--|--|--|--|--|
@@ -58,7 +61,6 @@ Table header can be eliminated.
 |  |  |  |  |  |♘ |  |  |
 |♙ |♙ |♙ |♙ |  |♙ |♙ |♙ |
 |♖ |♘ |♗ |♕ |♔ |  |  |♖ |
-
 
 ```markdown
 |:     Fruits \|\| Food           :|||
@@ -73,6 +75,7 @@ Table header can be eliminated.
 ```
 
 ### Text Alignment
+
 Table cell can be set alignment separately.
 
 | \:Fruits         ||  Food   :|
@@ -80,22 +83,18 @@ Table cell can be set alignment separately.
 | Apple    | Banana |  Orange  |
 | Apple    | Banana |  Orange  |
 
-
 |          | Fruits\::        ||
 |:-------- |:------ |:-------- |
 | Apple    | Banana |  Orange  |
 | Apple    | Banana |  Orange  |
-
 
 |: \:Fruits       :||          |:       Food     :||
 |:-------- |:------ |:-------- |:-------- |:------ |
 | Apple    | Banana |  Orange  |:   Strawberry    :|
 | Apple  &  Banana || ^^       |    Peach        :||
 
-
 |: \:Fruits       :||          |:       Food     :||
 | Apple    | Banana |  Orange  |:   Strawberry    :|
-
 
 |:     Fruits \|\| Food           :|||
 |:-------- |:-------- |:------------ |
@@ -108,4 +107,3 @@ Table cell can be set alignment separately.
 |^^   C. Banana      ||   It's OK! ![example image][my-image]  |
 
 [my-image]: http://www.unexpected-vortices.com/sw/rippledoc/example-image.jpg "An exemplary image"
-

@@ -4,6 +4,7 @@ title: Another test markdown
 subtitle: Each post also has a subtitle
 categories: markdown
 tags: [test]
+published: false
 ---
 
 Put the math expression within <span>$</span>...\$:
@@ -30,7 +31,6 @@ $$
 $ \rho {\rm{FOD}} = \sum\limits{\sigma ,i} {(\delta _1 - \delta _2 n_i^\sigma )|\phi _i^\sigma ({\bf{r}})|^2} $
 
 $$ \rho {\rm{FOD}} = \sum\limits{\sigma ,i} {(\delta _1 - \delta _2 n_i^\sigma )|\phi _i^\sigma ({\bf{r}})|^2} $$
-
 
 {{ "here is a liquid filter." | capitalize }}
 
@@ -120,10 +120,10 @@ p ":+1:"
 Reload the Nginx:
 
 ``` console
-$ sudo nginx -s reload
+sudo nginx -s reload
 ```
 
-|:                        |:                  :|: $$O_3 + C_2H_2 \rightarrow $$         :|||:  $$O_3 + C_2H_4 \rightarrow $$ :|||:       :| 
+|:                        |:                  :|: $$O_3 + C_2H_2 \rightarrow $$         :|||:  $$O_3 + C_2H_4 \rightarrow $$ :|||:       :|
 |:  ^^ Method            :| ^^ $$\lambda^a$$  |    vdW |    TS |    cycloadd.           |  vdW  |  TS  |  cycloadd.           | ^^ MAE    |
 |-------------------------|-------------------|--------|-------|------------------------|-------|------|----------------------|-----------|
 | $$\lambda$$-tPBE        |   0.20            | -0.40  | 7.69  | -68.00                 | -1.86 | 4.87 | -57.57               | 1.29      |
@@ -133,7 +133,6 @@ $ sudo nginx -s reload
 | Reference values $$^c$$ |   ---------       | -1.90  | 7.74  | -63.80                 | -1.94 | 3.37 | -57.15               | --------- |
 |=========================|===================|========|=======|========================|=======|======|======================|===========|
 | $$^a$$ The optimal mixing parameter.$$\~$$ $$^b$$ From Ref. .$$\~$$  $$^c$$ Best estimates from Ref. . ||||||||
-
 
 |   1   |  2     |   3   |   4   |  5   |  6   |  7  |
 | spancell1     ||   spancell2  || cell | spancell3 ||
@@ -146,16 +145,13 @@ $ sudo nginx -s reload
 |     (1,0)    || ^^    | (1,3) |
 </script>
 
-
 |:-----:|:-----:|:-----:|:-----:| ---- |
 | (0,0) | (0,1) | (0,2) | (0,3) |      |
 |     (1,0)    || ^^    | (1,3) |      |
 
-
 |:-----:|:-----:|:-----:|:-----:| ---- |
 | (0,0) | (0,1) | (0,2) | (0,3) |      |
 |     (1,0)           ||| (1,3)       ||
-
 
 |:-----:|:-----:|:-----:|:-----:| ---- |
 | (0,0) | (0,1) | (0,2) | (0,3) |      |
@@ -164,7 +160,6 @@ $ sudo nginx -s reload
 |:-----:|:-----:|:-----:|:-----:| ---- |
 | (0,0) | (0,1) | (0,2) | (0,3) |      \
 |     (1,0)           ||| ^^    |      |
-
 
 ## Table
 
@@ -178,7 +173,6 @@ $ sudo nginx -s reload
 |^^                 | 2 FADH | 3 ATP   |
 |                        30--32 ATP  |||
 
-
 {:color-style: style="background: black;" }
 {:color-style: style="color: white;" }
 {:font-style: style="font-weight: 900; text-decoration: underline;" }
@@ -190,7 +184,6 @@ $ sudo nginx -s reload
 | ^^ IALs |   Green  {: #id style="background: green; color: white" }    |||
 | ^^      |   Blue   {: style="background: blue; color: white" }         |||
 | ^^      |   Black  {: color-style font-style}                          |||
-
 
 [cell image]: https://jekyllrb.com/img/octojekyll.png "An exemplary image"
 
@@ -228,6 +221,7 @@ Authoritative DNS MX Record | `<Mail Gateway>`
 | 1 \* 3 = 3 | 2 \* 3 = 6 | 3 \* 4 = 12 | 4 \* 4 = 16 |
 
 ## Emoji
+
 :+1:
 
 ## Mathjax
@@ -311,9 +305,9 @@ Video with custom thumbnail:
 [![w:1100](https://i.imgur.com/bc9HOJU.png)](https://www.youtube.com/watch?v=kCHGDRHZ4eU)
 
 Tips:
+
 * Use pipes {% raw %}(`|`){% endraw %} to delineate columns, and dashes to delineate the header row from the rest of the table.
 * Spacing doesn't matter to the markdown processor, any extra white space is removed, but it can really help with readability.
 The two markdown examples below both create this table.
 
 Use pipes `{% raw %}(`|`){% endraw %}` to delineate columns, and dashes to delineate the header row from the rest of the table.
-

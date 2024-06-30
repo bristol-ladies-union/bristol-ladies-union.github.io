@@ -524,6 +524,7 @@ html {
     .post-link {
       @include relative-font-size(1.075);
       color: $grey-color;
+      color: #71b1fe;
 
       &:hover {
         color: darken($grey-color, 50%);
@@ -777,9 +778,12 @@ html {
     }
 
     color: #303030;
+    color: #225189;
 
     &:hover {
       color: #000;
+      color: $brand-color;
+      text-decoration: none;
     }
   }
 }

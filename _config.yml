@@ -132,7 +132,7 @@ night_mode: "auto"
 # this and add the path to the pages in order as they should show up
 header_pages:
   - registration.md
-  - archives.md
+  - news.md
   - sponsors.md
   - documents.md
 
@@ -142,6 +142,13 @@ defaults:
       path: assets/docs
     values:
       doc: true
+
+  - scope:
+      path: _posts/reports
+    values:
+      layout: report
+      categories:
+        - Match Report
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also

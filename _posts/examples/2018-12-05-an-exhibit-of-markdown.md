@@ -4,13 +4,12 @@ title: An exhibit of Markdown
 subtitle: Each post also has a subtitle
 categories: markdown
 tags: [example, markdown]
+published: false
 ---
 
 This note demonstrates some of what [Markdown][1] is capable of doing.
 
 ## An exhibit of Markdown
-
-
 
 *Note: Feel free to play with this page. Unlike regular notes, this doesn't automatically save itself.*
 
@@ -85,7 +84,6 @@ Markdown can also contain images. I'll need to add something here sometime.
 ## Finally
 
 There's actually a lot more to Markdown than this. See the official [introduction][4] and [syntax][5] for more information. However, be aware that this is not using the official implementation, and this might work subtly differently in some of the little things.
-
 
   [1]: https://daringfireball.net/projects/markdown/
   [2]: https://www.fileformat.info/info/unicode/char/2163/index.htm

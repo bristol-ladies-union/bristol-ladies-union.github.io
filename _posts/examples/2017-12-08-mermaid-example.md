@@ -3,6 +3,7 @@ layout: post
 title: Mermaid example
 categories: example
 tags: [mermaid]
+published: false
 ---
 
 ### 1. Pie chart
@@ -38,6 +39,7 @@ A[Christmas] -->|Get money| B(Go shopping)
 ```
 
 ### 3. Class diagram
+
 ```mermaid!
 classDiagram
 Animal <|-- Duck
@@ -63,6 +65,7 @@ class Zebra{
 ```
 
 ### 4. State diagram
+
 ```mermaid!
 stateDiagram
 [*] --> Still
