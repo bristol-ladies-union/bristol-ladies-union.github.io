@@ -6,7 +6,7 @@ permalink: /teams/dev/
 priority: 1
 categories: dev-team
 banner: "/assets/images/banners/dev-team.jpg"
-
+published: false
 ---
 
 ![dev team](/assets/images/2024-dev-team.jpg)

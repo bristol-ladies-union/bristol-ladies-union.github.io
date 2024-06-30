@@ -1,0 +1,16 @@
+---
+author: Ellie (coach)
+layout: report
+title: U10 Whitchurch vs BLU
+categories: 
+    - U10
+    - Match Report
+---
+
+## Report
+
+On Sunday the 10th of October BLUs U10s rocked up to South Bristol Sports Centre ready to take on Whitchurch U10s. First to take on the role of goalkeeper today was Zoe, supported by Eleanor and Isla in defence. After a bit of a rocky start to the game, we slowly began to get into the flow of it. Eleanor and Isla were confidently clearing the ball to our midfielders (Bonnie, Poppy and Evie) who were then travelling with the ball up the pitch and passing it on to our striker Sophie. Substitutions saw Alice come on upfront, as well as Leah and Niamh come on defence, immediately getting involved in the game and clearing the ball away from areas of danger. Despite our best efforts, the first half of the match did not go our way, but we will not dwell on that as the highlight of the first half was when Eleanor took on the role of goalkeeper. Nobody told us that the Peter Schmeichel of U10s girls was in our team! No matter what direction the shot came from, or the power that was behind the shot, everytime Eleanor stopped it from going in the back of the net. (Don't worry Eleanor, we won't stick you in goal every match!).
+
+The second half of the match is when we finally started showing Whitchurch U10s what we were made of. With it taking Isla just 3 minutes to score our first goal of the match! A wonderful goal from outside the box that curled just inside the post in the bottom right corner, which nobody (not even their goalkeeper!) expected to go in. With a goal in our back pocket, the girls finally started to show their strength and skills through the game. Leah was our current goalkeeper with Niamh and Evie in defence, not letting a single Whitchurch player close to the goal, clearing the ball away everytime it came near the box. Our midfield of Zoe, Isla and Poppy were showing their confidence in keeping possession and passing the ball around. Leading to our second goal of the game, again by Isla. A lovely pass from Evie found Zoe in the box, who then passed it to Isla who then beautifully slotted it top right corner of the goal. A quick change saw Bonnie come on in attack and Eleanor and Sophie come on in defence. Not long after that came our next goal of the match, with Evie securing her first goal for BLUs! A beautiful pass from Zoe saw Evie receive the ball and precisely place it in the bottom corner of the goal. Our last goalkeeper change of the match put Poppy in goal till fulltime. With other substitutions bringing Alice, Leah and Niamh back onto the pitch. An amazing tackle by Bonnie lead to our final goal of the game. Isla came into possession of the ball and dribbled it past their players and into the box, powerfully hitting it into the top left corner. An absolutely beautiful goal, definitely a contender for goal of the season!
+
+Every single player today showed resilience and strength through the game, making all of us coaches very proud. Unfortunately, we are not able to give everybody Star Player (even though they all definitely deserve it!). Our Star Players this week went to Isla (for scoring a wonderful hat trick and playing brilliantly in all positions) and Eleanor (for her amazing performance in both goal and defence, not letting a single ball get past her).
