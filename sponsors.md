@@ -4,13 +4,11 @@
 
 layout: category
 title: Sponsors
-heading: "Sponsors"
-subheading: "A huge thank you to all our sponsors"
+banner: /assets/images/banners/blu.jpg
+heading: Sponsors
+subheading: | 
+    Words cannot express how grateful we are to our fantastic sponsors. Your generosity has been vital to the club and your support is what allows us to continue to do our part in the phenomenal growth of female grassroots football, Nathalie Haines, Club Chairman
 category: sponsors
 ---
 
 
-> Words cannot express how grateful we are to our fantastic sponsors. Your generosity has been vital to the club and your support is what allows us to continue to do our part in the phenomenal growth of female grassroots football.
->
-> Nathalie Haines
-> Club Chairman
