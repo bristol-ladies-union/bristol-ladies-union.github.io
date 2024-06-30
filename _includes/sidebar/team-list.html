@@ -1,0 +1,15 @@
+{%- include functions.html func='log' level='debug' msg='Get team pages value' -%}
+
+{% assign teams = site.pages | where_exp: "item", "item.url contains '/teams/'" | sort: "priority" %}
+
+<div class="common-list">
+  <ul>
+    {% for team_page in teams %}
+      <li>
+        <a href="{{ team_page.url }}">
+          {{ team_page.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

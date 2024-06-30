@@ -1,0 +1,16 @@
+---
+author: Ellie (coach)
+layout: report
+title: U10 BLU vs Emersons Green
+categories: 
+    - U10
+    - Match Report
+---
+
+## Report
+
+After experiencing the baltic weather conditions last week, the girls turned up to today's match (Sunday 28/11/21) well prepared with base layers, coats, hats, gloves and snoods (other than cold-resistant Isla of course!). This week we faced Emersons Green for the first time. We started the match straight away, putting up a good battle against a strong side. Our defenders Rosie and Susie were clearing the ball away from the goal, passing it onto our midfielders (Zoe, Isla and Evie) who were dribbling confidently up the pitch. Our starting striker was Alice, who was positioning herself well to tap the ball in. However nothing was coming of our brilliant attacks. Substitutions saw Leah come on in defence with Poppy and Sophie coming on in attack to replace tired legs. Our chances were coming fast and often, but nothing was quite enough to get into the back of the net. Niamh and Eleanor came on to replace our defenders, keeping up our strong back line and not letting their attackers have a shot against Abbie. But when they did get through we were in safe hands. Abbie was throwing herself around the place, getting her fingertips on the ball to place it round the post, protecting the goal. Half-time whistle was blown and we entered even stevens, having played the best football I have ever seen the girls play.
+
+We started the second half raring to go and keep warm. Our striker Poppy was on her toes and positioning herself well for through balls. Our wingers Evie and Zoe were dribbling the ball up the line confidently, crossing it into Isla and Poppy. Our defenders Eleanor and Susie were marking their attackers on the halfway line and getting to the ball before they even had a chance to turn towards the goal. Unfortunately the other team managed to slip through a few times, but the girls didn't let this stop them. A substitution saw Sophie come on as a winger and Niamh come on in defence. Soon came our time of glory, Zoe dribbled the ball beautifully up the wing, cutting into the box and then passing the ball to Isla who slotted it into the back of the net. The crowd went crazy - all of the best supporters (parents and grandparents) jumping up and down in joy. Even though the girls had stayed positive, this motivated them even more. Niamh was well composed in defence, stopping their players from getting past and passing it confidently to Isla and Sophie in midfield. Alice and Eleanor soon came on in defence, demonstrated man-marking and powerful clearances. Like in the first half we had shot after shot, but none of them were seeming to go in again. We had close calls, like Isla hitting the post, missing by centimetres. We soon heard the full time whistle.
+
+The girls are improving massively every week, going up against teams who have been playing matches for the past couple of seasons already. This week the Star Players went to Abbie for her insane saves (we know she does it every week - we are going to have to get her her own trophy soon!) and Niamh for her amazing defending and strength like we have been practising in training.

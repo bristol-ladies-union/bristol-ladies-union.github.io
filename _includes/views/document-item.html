@@ -1,0 +1,17 @@
+{%- if include.item -%}
+  {%- assign item = include.item -%}
+{%- endif -%}
+
+{%- assign doc = item -%}
+{%- assign date = doc.name | slice: 0, 10 -%}
+{%- include functions.html func='get_document_name' doc=key -%}
+{%- assign name = return -%}
+{%- assign date_format = site.yat.date_format | default: "%b %-d, %Y" -%}
+
+<span class="post-meta">{{ date | date: date_format }}</span>
+<span>
+  <a class="post-link" href="{{ doc.path | relative_url }}">
+    {{ name }}
+    {%- include views/post-badges.html -%}
+  </a>
+</span>

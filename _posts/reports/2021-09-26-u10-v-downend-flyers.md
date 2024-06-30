@@ -1,0 +1,16 @@
+---
+author: Ellie (coach)
+layout: report
+title: U10 Downend Flyers vs BLU
+categories: 
+    - U10
+    - Match Report
+---
+
+## Report
+
+The sun was shining and the mood was high as we entered out first away game of the season. Despite everybody getting lost and struggling to find the playing fields, we all managed to get there in time for kick off. We started off strong with midfield (consisting of Zoe, Evie and Isla) confidently passing the ball around in Downend's half, keeping possession as we settled into the match. This lead to the first of many attempts by our striker Sophie, but none were quite getting past their strong goalkeeper and into the back of the net. Although we were keeping possession well, Downend were still able to break through on counter attacks, but we had nothing to worry about with Susie and Rosie in defence, kicking the ball away any time it came near them. Poppy started in goal with not much to do and only touching the ball a couple of times in that position as the game developed. As we were reaching halfway through the first half Isla played a beautiful through-ball to Sophie who placed it in the back of the net. Next we carried out a few substitutions, bringing fresh legs onto the pitch and giving our starting players a well deserved rest, also switching around our goalkeepers with Isla next to take on the role. Our midfield now consisted of Niamh, Bonnie and Alice, who worked hard and put all their effort into getting the ball from defence to our new striker Zoe. Our new defenders Leah and Eleanor understood the job they had to do and were confidently tackling Downend's players and clearing the ball out of our box. Despite our best efforts, Downend took control of the game at the end of the first half.
+
+Not letting this get us down, we started the second half with our head's held high. Sophie started the second half in goal, backed up by Rosie and Susie in defence. Again, we started off strong, passing the ball around. If the ball was ever lost Bonnie was on her toes in midfield running after the players, tackling to get it back in our possession and then passing it on to Poppy who was now our striker. Poppy had a fantastic run out in attack, with strikes going towards the top corners, however their goalkeeper this half was strong as well, so all attempts were being saved. New ways to score were being thought up by our attacking players, this lead to Poppy placing a lovely ball across the box, landing directly at Isla's feet, Isla then placed the ball precisely in the back of the net, securing us another wonderful goal. Our final goalkeeper swap of the game resulted in Bonnie finishing the game in goal. With changes seeing Alice and Leah make their way onto the pitch. Leah understood her new role in midfield, confidently tackling players and feeding the ball through to Evie and Poppy. A slight knock to the knee then saw Eleanor heroically come on last minute as an injury substition for Alice. This saw us to the final whistle (a bit earlier than anticipated as other substitions were lined up!) and therefore bringing our first away game to a close.
+
+Our star player trophies went to Rosie (for her amazing defensive performance, not letting a single ball past her) and Isla (for her fantastic passing, shooting and keeping of possession in midfield).

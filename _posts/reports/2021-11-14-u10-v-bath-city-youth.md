@@ -1,0 +1,16 @@
+---
+author: Ellie (coach)
+layout: report
+title: U10 BLU vs Bath City Youth
+categories: 
+    - U10
+    - Match Report
+---
+
+## Report
+
+After a 4 week gap in our fixture list, we were back and raring to go for our home match against Bath City. We started the game strong, closing down their players and applying pressure from the front. Our starting midfielders (Zoe, Isla and Evie) were quickly moving the ball around with lovely clearances from our defenders (Rosie and Susie) when it got into areas of danger. Alice started the match upfront, playing well by getting into good positions and ready to tap the ball in if the opportunity came. Not forgetting about our wonderful new goalkeeper (Abbie) who's confidence in running out and picking the ball up grew throughout the game. Despite Bath City getting a few goals in the bag, we kept our heads up and continued to play good football. Substitutions saw Poppy and Sophie come on in attack, with Eleanor and Leah coming on in defence. Our patience soon payed off when a wonderful volley from Zoe saw the ball land right at Isla's feet in the box. Isla then took the opportunity and fired it into the back of the net, securing our first goal! We continued to play good football for the rest of the first half, with many close chances from Poppy nearly adding her to the scoresheet, but none quite managed to sneak into the back of the net.
+
+We entered the second half ready, knowing that Bath City were a strong side, we were determined to win each of our individual battles and show our strength on the ball. We started off the second half with Leah upfront (for the first time ever!) after she showed us some powerful shots in training. Despite it being a new position, Leah threw herself into the role and got into some amazing positions for passes from midfield. When Evie got the ball on the left wing we were fast to counter attack, dribbling around all of their players with some beautiful stepovers and other skills to deceive the opposition. A quick switch around saw Eleanor, Leah and Alice come on in defence. Alice took notes from our halftime talk and came on to demonstrate some amazing strength in her tackles, putting everything in to stop them getting past. With Eleanor powerfully clearing the ball, we were well composed and playing our best. This lead to a well deserved second goal, again being scored by our star scorer Isla! Poppy played a lovely ball through the middle of their defenders, which Isla then ran onto and placed in the top left corner of the net. Even though we continued to give their goalkeeper lots to do and had some amazing shots, we weren't able to get anymore in the back of the net, leading us to the final whistle. Throughout the whole match Abbie consistently made incredible saves, stopping shots from all distances and diving into every corner.
+
+Although the game did not go our way, the girls didn't let the score get them down and kept going until the final whistle. They were a credit to themselves and should be really proud of their performance. Our Star Players today were Abbie (for her insanely good club debut and performance in goal) and Evie (for her cheeky skills to get past the other team).

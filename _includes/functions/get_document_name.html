@@ -1,0 +1,38 @@
+{% if include.params.doc %}
+  {% assign doc = include.params.doc %}
+{% endif %}
+
+
+{%- assign name = doc.basename | slice: 11, 100 | escape | lowerize -%}
+{%- assign words = name | split: '_' -%}
+{%- assign return = "" -%}
+
+{% for word in words %}
+
+  {% if word == "blu" %}
+    {%- assign return = return | append: " BLU" -%}
+  {% elsif word == "blufc" %}
+    {%- assign return = return | append: " BLU FC" -%}
+  {% elsif word == "agm" %}
+    {%- assign return = return | append: " AGM" -%}
+  {% elsif word == "fa" %}
+    {%- assign return = return | append: " FA" -%}
+  {% elsif word == "bgl" %}
+    {%- assign return = return | append: " BGL" -%}
+  {% elsif word == "bgfl" %}
+    {%- assign return = return | append: " BGFL" -%}
+  {% elsif word == "covid" %}
+    {%- assign return = return | append: " COVID" -%}
+  {% elsif word == "of" %}
+    {%- assign return = return | append: " of" -%}
+  {% elsif word == "and" %}
+    {%- assign return = return | append: " and" -%}
+  {% elsif word == "for" %}
+    {%- assign return = return | append: " for" -%}
+  {% else %}
+    {%- assign formatted_word = word | capitalize -%}
+    {%- assign return = return | append: " " | append: formatted_word -%}
+  {% endif %}
+
+
+{% endfor %}
