@@ -13,13 +13,13 @@ subtitle:  If you or your daughter want to join then please complete the appropr
 
 Juniors One parent/guardian will need to register for a FAN (FA Number) to complete registration. Please visit the FA.com webpage Fill in the Juniors Registration Form
 
-[Juniors Register Here](https://forms.gle/dGDEnFwyydiPKfKG9)
+[Juniors Register Here](https://forms.gle/vwdNz6gHpGNcK8hK9)
 
 ## Seniors
 
 Senior players should register using the Seniors Registration Form
 
-[Seniors Register Here](https://forms.gle/v9pSUbEjEgR2Q8aU6)
+[Seniors Register Here](https://forms.gle/sTUwBbVYtHxyApRi6)
 
 ## Payment Details
 
