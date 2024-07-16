@@ -23,7 +23,7 @@ Senior players should register using the Seniors Registration Form
 
 ## Payment Details
 
-Please refer to the Club’s Subscription Policy for full details. The Club will accept payment of membership fees by bank transfer. Any member may apply, either via their coach or directly to the Management Committee, for their fees to be partially or wholly waived or to arrange payment installments. £100 annual membership fee (match fees of £5 per match payable to the coach).
+Please refer to the Club’s Subscription Policy for full details. The Club will accept payment of membership fees by bank transfer. Any member may apply, either via their coach or directly to the Management Committee, for their fees to be partially or wholly waived or to arrange payment installments. £110 annual membership fee (match fees of £5 per match payable to the coach).
 
 ### Bank Details
 
